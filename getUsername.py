@@ -1,9 +1,9 @@
-uName = ''
+uname = None
 
-while len(uName) == 0:
+while not uname:
     uName = input("Enter your name: ")
-    if len(uName) < 0:
+    if len(uname) < 0:
         break
 
-print("Hello " +  uName)
-print(len(uName))
+print("Hello " +  uname)
+print(len(uname))
